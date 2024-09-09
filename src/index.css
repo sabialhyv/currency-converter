@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.currency-container {
+    width: 100%;
+    height: 100vh;
+    background: #EAEEFB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.currency-container h2 {
+    margin: 55px;
+    font-size: 50px;
+    color: #002767;
+}
+
+.currency-box {
+    width: 40%;
+    max-width: 600px;
+    padding: 50px 20px;
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.change-currency {
+    width: 85%;
+    height: 140px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.change-currency p {
+    color: gray;
+    font-size: 1.5rem;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.currency {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.currency img {
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.currency-box input {
+    width: 40%;
+    height: 40px;
+    padding: 10px;
+    font-size: 1.2rem;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+.currency-box select {
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+}
+
+.currency-box hr {
+    width: 75%;
+    background-color: gray;
+    border-radius: 5px;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.icon {
+    width: 55px;
+    height: 55px;
+    position: absolute;
+    background-color: #002767;
+    color: white;
+    top: 43%;
+    border-radius: 50%;
+}
+
+.container button {
+    width: 150px;
+    height: 50px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 30px;
+    border-radius: 10px;
+    background-color: #002767;
+    color: white;
+}
