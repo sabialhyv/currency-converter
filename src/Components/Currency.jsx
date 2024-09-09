@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react'
 import { CgArrowsExchangeV } from "react-icons/cg";
 import axios from 'axios'
+import photo1 from '../assets/images/photo1.webp'
+import photo2 from '../assets/images/photo2.webp'
+
 
 let baseUrl = 'https://api.freecurrencyapi.com/v1/latest';
 let apikey = 'fca_live_nQ8Nw4VbBG8HXVXegYVnyKwcaLBpYoB4twPtikrX'
@@ -44,6 +47,8 @@ function Currency() {
     return (
         <div className="currency-container">
             <h2>Currency Converter</h2>
+            <img className='design-image first' src={photo1} alt="" />
+            <img className='design-image second' src={photo2} alt="" />
             <div className="currency-box">
                 <div className="change-currency">
                     <p>Amount</p>
